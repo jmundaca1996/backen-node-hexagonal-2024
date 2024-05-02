@@ -1,0 +1,5 @@
+export { AllProductsController } from "./all.products.controller"
+export { CreateProductController } from "./create.product.controller"
+export { DeleteProductController } from "./delete.product.controller"
+export { FindProductController } from "./find.product.controller"
+export { UpdateProductController } from "./update.product.controller"

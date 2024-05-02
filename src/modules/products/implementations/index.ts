@@ -1,0 +1,5 @@
+export { allProductsController } from "./all.products.implementation"
+export { createProductController } from "./create.product.implementation"
+export { deleteProductController } from "./delete.product.implementation"
+export { findProductController } from "./find.product.implementation"
+export { updateProductController } from "./update.product.implementation"

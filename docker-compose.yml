@@ -1,0 +1,15 @@
+version: '3'
+services:
+  redis:
+    image: redis:7.2
+    container_name: redis
+    restart: always
+    environment:
+      - REDIS_PASSWORD=admin
+    ports:
+      - "6379:6379"
+    volumes:
+      - workspace-db:/data
+
+volumes:
+  workspace-db:

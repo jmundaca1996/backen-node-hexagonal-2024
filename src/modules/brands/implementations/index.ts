@@ -1,0 +1,5 @@
+export { createBrandsController } from "./create.brand.implementation"
+export { findBrandController } from "./find.brand.implementation"
+export { updateBrandController } from "./update.brand.implementation"
+export { deleteBrandController } from "./delete.brand.implementation"
+export { getAllBrandsController } from "./all.brands.implementation"
